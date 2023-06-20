@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+.text1,.text2,.text3{
+    height: 100px;
+    width: 100px;
+}
+.text2{
+    background: blue;
+}
+.text3{
+    background: black;
+    align-self: end;
+}
+.text1{
+    background: red;
+    align-self: center;
+}
